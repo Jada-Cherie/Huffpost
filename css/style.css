@@ -1,0 +1,280 @@
+*{
+    box-sizing: border-box;
+}
+html{           /*for font of entire webpage*/
+    font-size: 62.25%;
+    font-family: 'Montserrat' , 'Helvitica' , 'sans-serif';
+} 
+/*logo and nav*/
+header{
+    width: 100%;
+    height: 115px;
+    /* border: 1px solid black; */
+    background-color: rgb(0 0 0);
+    clear: both;
+}
+header img{    /* logo size and centered*/
+    width: 25%;
+    margin-left: 37%;
+}
+header ul{   /*gets the nav in a straight line and spaced*/
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+ul li a{   /*get reid of blue color of embeded link and the underline*/
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    
+}
+/*Pence Article*/
+main{  
+    width: 100%;
+    height:727px;
+    /* border: 1px solid black; */
+    text-align: center;
+    float: left;
+}
+main h1{ /* heading font*/
+    font-size: 5.8rem;
+    margin: 2% 4% 4%;
+    text-decoration: underline;
+}
+main img{ /*image for main article*/
+    width: 83%;
+}
+/*latest news and empty space*/
+.box1{ /*section that holds latest news and an empty space*/
+    width: 100%;
+    height:500px;
+    /* border: 1px solid black; */
+    float: left;
+}
+.latestNews{ /*box for latest news*/
+    width: 70%;
+    height: 500px;
+    /* border: 1px solid black; */
+    float: left;
+}
+.emptySpace{   /*empty space next to latest news*/
+    width: 30%;
+    height: 500px;
+    /* border: 1px solid black; */
+    float: left;
+}
+.latestNews h2 , .box2 h3 , .box3 h3{ /*addresses font size of heading elements for box 1-3*/
+    font-size: 1.4rem;
+    text-align: center;
+}
+.one , .two , .three , .four , .five , .six , .seven , .eight{  /*space for articles of latest news and what's happening*/
+    width: 21%;
+    height: 228px;
+    margin-left: 3%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.one a > img{                /*China Ballon & seacrest*/
+    width: 100%;
+}
+.one span , .one p{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.two a > img{               /*Biden & Ke Huy Quan*/
+    width: 100%;
+}
+.two span , .two p{
+    font-size: 1.13rem;
+    font-weight: bold;
+}
+.three a > img{             /*Warren & repinHollywood*/
+    width: 100%;
+}
+.three span , .three p{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.four a > img{             /*Ukraine & teddybear*/
+    width: 100%;
+}
+.four span , .four p{
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.five a > img{             /*east plaestine and rebel wilson*/
+    width: 100%;
+}
+.five span , .five p{
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.six a > img{             /*east plaestine and handler*/
+    width: 100%;
+}
+.six span , .six p{
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.seven a > img{             /*mark & masked singer*/
+    width: 100%;
+    height: 43%;
+}
+.seven span , .seven p{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.eight a > img{             /*el paso and silverman*/
+    width: 100%;
+}
+.eight span , .eight p{
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+/*what's happening*/
+.box2{         /*Box for what's happening section*/
+    width: 70%;
+    height:507px;
+    /* border: 1px solid black; */
+    float: left;
+}
+
+/*shopping*/
+.box3{
+    width: 30%;
+    height:785px;
+    /* border: 1px solid black; */
+    float: right;
+}
+.oneShop , .twoShop , .threeShop , .fourShop , .fiveShop{
+    width: 100%;
+    height: 148px;
+    /* border: 1px solid black; */
+    display: block;
+    clear: both;
+}
+
+.oneShop a > img{                /*1st shop article img*/
+    width: 29%;
+    margin: 5% 5% 2%;
+    position: relative;
+    float: left;
+}
+.oneShop p{                     /*1st shop article text*/
+    font-size: 1.7rem;
+    font-weight: bold;
+    width: 60%;
+    margin-top: 9%;
+    float: left;
+}
+.twoShop a > img{                /*2nd shop article img*/
+    width: 29%;
+    margin: 4% 5% 2%;
+    position: relative;
+    float: left;
+}
+.twoShop p{                     /*2nd shop article text*/
+    font-size: 1.7rem;
+    font-weight: bold;
+    width: 60%;
+    margin-top: 8%;
+    float: left;
+}
+.threeShop a > img{                /*3rd shop article img*/
+    width: 29%;
+    margin: 5% 5% 2%;
+    position: relative;
+    float: left;
+}
+.threeShop p{                     /*3rd shop article text*/
+    font-size: 1.7rem;
+    font-weight: bold;
+    width: 60%;
+    margin-top: 10%;
+    float: left;
+}
+.fourShop a > img{                /*4th shop article img*/
+    width: 29%;
+    margin: 5% 5% 2%;
+    position: relative;
+    float: left;
+}
+.fourShop p{                     /*4th shop article text*/
+    font-size: 1.7rem;
+    font-weight: bold;
+    width: 60%;
+    margin-top: 11%;
+    float: left;
+}
+.fiveShop a > img{                /*5th shop article img*/
+    width: 29%;
+    margin: 3% 5% 2%;
+    position: relative;
+    float: left;
+}
+.fiveShop p{                     /*5th shop article text*/
+    font-size: 1.8rem;
+    font-weight: bold;
+    width: 60%;
+    margin-top: 9%;
+    float: left;
+}
+.box3 span{
+    margin-top: 3%;
+    margin-left: 5%;
+    font-size: 1.3rem;
+
+}
+
+/*life*/
+.box4{                        /*container*/
+    width: 70%;
+    height:500px;
+    /* border: 1px solid black; */
+    float: left;
+}
+.box4 h4{                       /*heading*/
+    text-align: center;
+    font-size: 3rem;
+    margin: 3% 0%;
+    color: #161e63;
+}
+/* .box4 h4 > a{
+    text-shadow: 3px 2px 2px rgb(rgb(240 14 186) / 70%);
+} */
+
+.wellness , .parenting{     /*boxes that contain articles */
+    width: 41%;
+    height: 415px;
+    margin: 0% 4%;
+    /* border: 1px solid black; */
+    background: rgb(230 252 254) ;
+    float: left;
+}
+.wellness a > img{        
+    width: 100%;
+}
+.parenting a > img{
+    width: 100%;
+}
+.wellness span , .parenting span{
+    color: rgb(35 15 202);
+    margin-left: 37%;
+    font-size: 1.3rem;
+}
+.wellness h5 , .parenting h5{
+    font-weight: 600;
+    text-align: center;
+    margin-left: 12%;
+    font-size: 1.5rem;
+    width: 75%;
+}
+.wellness p , .parenting p{
+    font-weight: 100;
+    text-align: center;
+    margin-left: 5%;
+    font-size: 1rem;
+    width: 90%;
+}
+
+
